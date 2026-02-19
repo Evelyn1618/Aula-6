@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrada de dados</title>
+</head>
+<body> 
+    <form action="#">
+        <label for="campo1"> Campo 1 </label>
+        <input type="text" name="campo1" id="campo1" maxlength="40" placeholder="dígite aqui..." required>
+
+        <br><br>
+
+        <label for="campo2"> Campo 2 </label>
+        <input type="number" name="campo2" id="campo2" step="0.01" min="0.01" max="99999.99" placeholder="Valor $" required> 
+
+        <br><br>
+
+        <label for="campo3"> Campo 3 </label>
+        <input type="date" name="campo3" id="campo3" min="2026-03-01" max="2026-03-30" required>
+         
+        <br><br>
+        <span>Quais turnos estás disponível?</span>
+        <br>
+        <label for="turno1a">Manhã</label>~
+        <input type="checkbox" name="turno" id="turno1a" value="Manhã">
+
+        <label for="turno2a">Tarde</label>~
+        <input type="checkbox" name="turno" id="turno2a" value="Tarde">
+
+        <label for="turno3a">Noite</label>~
+        <input type="checkbox" name="turno" id="turno3a" value="Noite">
+      
+        <label for="turno4a">Madrugada</label>~
+        <input type="checkbox" name="turno" id="turno4a" value="Madrugada">
+
+      <br><br>
+
+        <span>Disponibilidade para viajar?</span>
+        <br>
+        <label for="viagem1">sim</label>~
+        <input type="radio" name="viagem" id="viagem1" value="Sim">
+
+        <label for="viagem2">não</label>~
+        <input type="radio" name="viagem" id="viagem2" value="Não">
+
+        <label for="viagem3">talvez</label>~
+        <input type="radio" name="viagem" id="viagem3" value="Talvez">
+        
+
+       <br><br>
+
+           <input type="submit" value="Enviar">
+           <input type="reset" value="Limpar">
+
+    </form>
+
+
+<a href="index.html"> Ir para ínicio</a>
+</body>
+</html>
